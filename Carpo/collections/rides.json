@@ -1,0 +1,502 @@
+[
+  {
+    "_id": { "$oid": "65f8a1b2c3d4e5f6a7b8c9e0" },
+    "driverId": { "$oid": "64f8a1b2c3d4e5f6a7b8c9d0" },
+    "route": {
+      "startLocation": {
+        "address": "123 Main St, Coimbatore, Tamil Nadu",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9558, 11.0168]
+        }
+      },
+      "endLocation": {
+        "address": "Tech Park, Saravanampatti, Coimbatore",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [77.0073, 11.0677]
+        }
+      },
+      "waypoints": [
+        {
+          "address": "RS Puram, Coimbatore",
+          "coordinates": {
+            "type": "Point",
+            "coordinates": [76.9803, 11.0235]
+          }
+        }
+      ],
+      "estimatedDistance": 15.2,
+      "estimatedDuration": 35
+    },
+    "schedule": {
+      "departureTime": { "$date": "2025-07-24T08:00:00Z" },
+      "isRecurring": true,
+      "recurringDays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "recurringEndDate": { "$date": "2025-12-31T00:00:00Z" }
+    },
+    "capacity": {
+      "totalSeats": 3,
+      "availableSeats": 2
+    },
+    "pricing": {
+      "costPerSeat": 150,
+      "currency": "INR"
+    },
+    "preferences": {
+      "smokingAllowed": false,
+      "musicAllowed": true,
+      "maxDetour": 15,
+      "genderPreference": "any"
+    },
+    "status": "active",
+    "createdAt": { "$date": "2025-07-20T14:30:00Z" },
+    "updatedAt": { "$date": "2025-07-23T09:15:00Z" }
+  },
+  {
+    "_id": { "$oid": "65f8a1b2c3d4e5f6a7b8c9e1" },
+    "driverId": { "$oid": "64f8a1b2c3d4e5f6a7b8c9d2" },
+    "route": {
+      "startLocation": {
+        "address": "789 Pine Rd, Coimbatore, Tamil Nadu",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9400, 11.0300]
+        }
+      },
+      "endLocation": {
+        "address": "Coimbatore Railway Station",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9630, 11.0084]
+        }
+      },
+      "waypoints": [],
+      "estimatedDistance": 8.5,
+      "estimatedDuration": 20
+    },
+    "schedule": {
+      "departureTime": { "$date": "2025-07-24T18:30:00Z" },
+      "isRecurring": false,
+      "recurringDays": [],
+      "recurringEndDate": null
+    },
+    "capacity": {
+      "totalSeats": 3,
+      "availableSeats": 3
+    },
+    "pricing": {
+      "costPerSeat": 80,
+      "currency": "INR"
+    },
+    "preferences": {
+      "smokingAllowed": false,
+      "musicAllowed": false,
+      "maxDetour": 20,
+      "genderPreference": "any"
+    },
+    "status": "active",
+    "createdAt": { "$date": "2025-07-22T16:20:00Z" },
+    "updatedAt": { "$date": "2025-07-22T16:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "65f8a1b2c3d4e5f6a7b8c9e2" },
+    "driverId": { "$oid": "64f8a1b2c3d4e5f6a7b8c9d4" },
+    "route": {
+      "startLocation": {
+        "address": "654 Maple Dr, Coimbatore, Tamil Nadu",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9500, 11.0250]
+        }
+      },
+      "endLocation": {
+        "address": "Singanallur IT Park, Coimbatore",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [77.0364, 11.0510]
+        }
+      },
+      "waypoints": [
+        {
+          "address": "Gandhipuram, Coimbatore",
+          "coordinates": {
+            "type": "Point",
+            "coordinates": [76.9735, 11.0161]
+          }
+        }
+      ],
+      "estimatedDistance": 12.8,
+      "estimatedDuration": 28
+    },
+    "schedule": {
+      "departureTime": { "$date": "2025-07-24T07:45:00Z" },
+      "isRecurring": true,
+      "recurringDays": ["monday", "wednesday", "friday"],
+      "recurringEndDate": { "$date": "2025-10-31T00:00:00Z" }
+    },
+    "capacity": {
+      "totalSeats": 3,
+      "availableSeats": 1
+    },
+    "pricing": {
+      "costPerSeat": 120,
+      "currency": "INR"
+    },
+    "preferences": {
+      "smokingAllowed": false,
+      "musicAllowed": true,
+      "maxDetour": 25,
+      "genderPreference": "any"
+    },
+    "status": "active",
+    "createdAt": { "$date": "2025-07-19T10:45:00Z" },
+    "updatedAt": { "$date": "2025-07-23T08:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "65f8a1b2c3d4e5f6a7b8c9e3" },
+    "driverId": { "$oid": "64f8a1b2c3d4e5f6a7b8c9d6" },
+    "route": {
+      "startLocation": {
+        "address": "147 Birch Ave, Coimbatore, Tamil Nadu",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9350, 11.0350]
+        }
+      },
+      "endLocation": {
+        "address": "Peelamedu, Coimbatore",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [77.0274, 11.0302]
+        }
+      },
+      "waypoints": [],
+      "estimatedDistance": 10.1,
+      "estimatedDuration": 22
+    },
+    "schedule": {
+      "departureTime": { "$date": "2025-07-25T09:15:00Z" },
+      "isRecurring": false,
+      "recurringDays": [],
+      "recurringEndDate": null
+    },
+    "capacity": {
+      "totalSeats": 3,
+      "availableSeats": 2
+    },
+    "pricing": {
+      "costPerSeat": 100,
+      "currency": "INR"
+    },
+    "preferences": {
+      "smokingAllowed": true,
+      "musicAllowed": true,
+      "maxDetour": 18,
+      "genderPreference": "any"
+    },
+    "status": "active",
+    "createdAt": { "$date": "2025-07-23T11:30:00Z" },
+    "updatedAt": { "$date": "2025-07-23T11:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "65f8a1b2c3d4e5f6a7b8c9e4" },
+    "driverId": { "$oid": "64f8a1b2c3d4e5f6a7b8c9d8" },
+    "route": {
+      "startLocation": {
+        "address": "369 Willow Ct, Coimbatore, Tamil Nadu",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9450, 11.0400]
+        }
+      },
+      "endLocation": {
+        "address": "Tidel Park, Coimbatore",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [77.0067, 11.0677]
+        }
+      },
+      "waypoints": [
+        {
+          "address": "Race Course, Coimbatore",
+          "coordinates": {
+            "type": "Point",
+            "coordinates": [76.9646, 11.0293]
+          }
+        }
+      ],
+      "estimatedDistance": 14.7,
+      "estimatedDuration": 32
+    },
+    "schedule": {
+      "departureTime": { "$date": "2025-07-24T08:30:00Z" },
+      "isRecurring": true,
+      "recurringDays": ["tuesday", "thursday"],
+      "recurringEndDate": { "$date": "2025-09-30T00:00:00Z" }
+    },
+    "capacity": {
+      "totalSeats": 3,
+      "availableSeats": 3
+    },
+    "pricing": {
+      "costPerSeat": 140,
+      "currency": "INR"
+    },
+    "preferences": {
+      "smokingAllowed": false,
+      "musicAllowed": false,
+      "maxDetour": 22,
+      "genderPreference": "any"
+    },
+    "status": "active",
+    "createdAt": { "$date": "2025-07-21T13:15:00Z" },
+    "updatedAt": { "$date": "2025-07-21T13:15:00Z" }
+  },
+  {
+    "_id": { "$oid": "65f8a1b2c3d4e5f6a7b8c9e5" },
+    "driverId": { "$oid": "64f8a1b2c3d4e5f6a7b8c9d9" },
+    "route": {
+      "startLocation": {
+        "address": "741 Poplar Blvd, Coimbatore, Tamil Nadu",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9750, 11.0180]
+        }
+      },
+      "endLocation": {
+        "address": "Brookefields Mall, Coimbatore",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [77.0024, 11.0195]
+        }
+      },
+      "waypoints": [],
+      "estimatedDistance": 6.2,
+      "estimatedDuration": 15
+    },
+    "schedule": {
+      "departureTime": { "$date": "2025-07-24T19:00:00Z" },
+      "isRecurring": false,
+      "recurringDays": [],
+      "recurringEndDate": null
+    },
+    "capacity": {
+      "totalSeats": 3,
+      "availableSeats": 1
+    },
+    "pricing": {
+      "costPerSeat": 60,
+      "currency": "INR"
+    },
+    "preferences": {
+      "smokingAllowed": false,
+      "musicAllowed": true,
+      "maxDetour": 14,
+      "genderPreference": "any"
+    },
+    "status": "active",
+    "createdAt": { "$date": "2025-07-23T15:00:00Z" },
+    "updatedAt": { "$date": "2025-07-23T17:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "65f8a1b2c3d4e5f6a7b8c9e6" },
+    "driverId": { "$oid": "64f8a1b2c3d4e5f6a7b8c9d3" },
+    "route": {
+      "startLocation": {
+        "address": "321 Elm St, Coimbatore, Tamil Nadu",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9700, 11.0150]
+        }
+      },
+      "endLocation": {
+        "address": "Kovai Medical Center, Coimbatore",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9947, 11.0041]
+        }
+      },
+      "waypoints": [],
+      "estimatedDistance": 5.8,
+      "estimatedDuration": 18
+    },
+    "schedule": {
+      "departureTime": { "$date": "2025-07-25T07:00:00Z" },
+      "isRecurring": true,
+      "recurringDays": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"],
+      "recurringEndDate": { "$date": "2025-11-30T00:00:00Z" }
+    },
+    "capacity": {
+      "totalSeats": 3,
+      "availableSeats": 2
+    },
+    "pricing": {
+      "costPerSeat": 70,
+      "currency": "INR"
+    },
+    "preferences": {
+      "smokingAllowed": true,
+      "musicAllowed": true,
+      "maxDetour": 12,
+      "genderPreference": "any"
+    },
+    "status": "active",
+    "createdAt": { "$date": "2025-07-20T09:20:00Z" },
+    "updatedAt": { "$date": "2025-07-22T14:45:00Z" }
+  },
+  {
+    "_id": { "$oid": "65f8a1b2c3d4e5f6a7b8c9e7" },
+    "driverId": { "$oid": "64f8a1b2c3d4e5f6a7b8c9d0" },
+    "route": {
+      "startLocation": {
+        "address": "123 Main St, Coimbatore, Tamil Nadu",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9558, 11.0168]
+        }
+      },
+      "endLocation": {
+        "address": "Coimbatore Airport",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [77.0434, 11.0297]
+        }
+      },
+      "waypoints": [
+        {
+          "address": "Avinashi Road, Coimbatore",
+          "coordinates": {
+            "type": "Point",
+            "coordinates": [77.0089, 11.0244]
+          }
+        }
+      ],
+      "estimatedDistance": 18.3,
+      "estimatedDuration": 40
+    },
+    "schedule": {
+      "departureTime": { "$date": "2025-07-26T05:30:00Z" },
+      "isRecurring": false,
+      "recurringDays": [],
+      "recurringEndDate": null
+    },
+    "capacity": {
+      "totalSeats": 3,
+      "availableSeats": 3
+    },
+    "pricing": {
+      "costPerSeat": 200,
+      "currency": "INR"
+    },
+    "preferences": {
+      "smokingAllowed": false,
+      "musicAllowed": false,
+      "maxDetour": 15,
+      "genderPreference": "any"
+    },
+    "status": "active",
+    "createdAt": { "$date": "2025-07-23T20:00:00Z" },
+    "updatedAt": { "$date": "2025-07-23T20:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "65f8a1b2c3d4e5f6a7b8c9e8" },
+    "driverId": { "$oid": "64f8a1b2c3d4e5f6a7b8c9d4" },
+    "route": {
+      "startLocation": {
+        "address": "654 Maple Dr, Coimbatore, Tamil Nadu",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9500, 11.0250]
+        }
+      },
+      "endLocation": {
+        "address": "Fun Mall, Coimbatore",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9554, 10.9984]
+        }
+      },
+      "waypoints": [],
+      "estimatedDistance": 4.9,
+      "estimatedDuration": 12
+    },
+    "schedule": {
+      "departureTime": { "$date": "2025-07-24T20:15:00Z" },
+      "isRecurring": false,
+      "recurringDays": [],
+      "recurringEndDate": null
+    },
+    "capacity": {
+      "totalSeats": 3,
+      "availableSeats": 2
+    },
+    "pricing": {
+      "costPerSeat": 50,
+      "currency": "INR"
+    },
+    "preferences": {
+      "smokingAllowed": false,
+      "musicAllowed": true,
+      "maxDetour": 25,
+      "genderPreference": "any"
+    },
+    "status": "active",
+    "createdAt": { "$date": "2025-07-23T18:45:00Z" },
+    "updatedAt": { "$date": "2025-07-23T19:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "65f8a1b2c3d4e5f6a7b8c9e9" },
+    "driverId": { "$oid": "64f8a1b2c3d4e5f6a7b8c9d2" },
+    "route": {
+      "startLocation": {
+        "address": "789 Pine Rd, Coimbatore, Tamil Nadu",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.9400, 11.0300]
+        }
+      },
+      "endLocation": {
+        "address": "CODISSIA Trade Fair Complex, Coimbatore",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [77.0476, 11.0516]
+        }
+      },
+      "waypoints": [
+        {
+          "address": "Hope College, Coimbatore",
+          "coordinates": {
+            "type": "Point",
+            "coordinates": [76.9889, 11.0406]
+          }
+        }
+      ],
+      "estimatedDistance": 16.4,
+      "estimatedDuration": 38
+    },
+    "schedule": {
+      "departureTime": { "$date": "2025-07-25T06:45:00Z" },
+      "isRecurring": true,
+      "recurringDays": ["saturday", "sunday"],
+      "recurringEndDate": { "$date": "2025-08-31T00:00:00Z" }
+    },
+    "capacity": {
+      "totalSeats": 3,
+      "availableSeats": 1
+    },
+    "pricing": {
+      "costPerSeat": 160,
+      "currency": "INR"
+    },
+    "preferences": {
+      "smokingAllowed": false,
+      "musicAllowed": false,
+      "maxDetour": 20,
+      "genderPreference": "any"
+    },
+    "status": "completed",
+    "createdAt": { "$date": "2025-07-18T12:00:00Z" },
+    "updatedAt": { "$date": "2025-07-23T07:30:00Z" }
+  }
+]
